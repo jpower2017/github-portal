@@ -1,0 +1,50 @@
+{
+  "name": "portal-cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-fetch": "0.7.0",
+    "classnames": "^2.2.5",
+    "date-fns": "^1.29.0",
+    "download.js": "^1.0.0",
+    "flexboxgrid": "^6.3.1",
+    "font-awesome": "^4.7.0",
+    "js-base64": "^2.4.3",
+    "jwt-decode": "^2.2.0",
+    "material-ui": "^0.19.3",
+    "material-ui-datatables": "0.18.2",
+    "moment": "^2.18.1",
+    "njwt": "^0.4.0",
+    "ramda": "^0.24.1",
+    "react": "^16.0.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-background-image-loader": "0.0.5",
+    "react-date-range": "^1.0.0-beta",
+    "react-dimensions": "1.3.1",
+    "react-dom": "^16.0.0",
+    "react-geosuggest": "^2.8.0",
+    "react-iframe-comm": "^1.2.2",
+    "react-list": "^0.8.10",
+    "react-mailto": "0.4.0",
+    "react-material-icons": "1.0.2",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "4.2.2",
+    "recharts": "1.0.0-alpha.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "2.2.0",
+    "throttle-debounce": "^2.0.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-push": "./build-push ui-portal",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "/portal"
+}
